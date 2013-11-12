@@ -21,10 +21,10 @@
 				<p class="logo"><a href="{{ HOME_PATH }}">{{ site.title }}</a></p>
 				<nav class="nav-global">
 					<ul>
-						<li class="archive"><a href="/archive.html">archive</a></li>
-						<li class="page"><a href="/pages.html">pages</a></li>
-						<li class="category"><a href="/categories.html">categories</a></li>
-						<li class="tag"><a href="/tags.html">tags</a></li>
+						<li class="archive"><a href="/archive.html">文章归档</a></li>
+						<li class="page"><a href="/pages.html">页面</a></li>
+						<li class="category"><a href="/categories.html">分类</a></li>
+						<li class="tag"><a href="/tags.html">标签</a></li>
 					</ul>
 				</nav>
 			</div><!-- unit-inner -->
@@ -43,7 +43,7 @@
 		<div class="unit-foot">
 			<div class="unit-inner unit-foot-inner">
 				<div class="misc vcard">
-					<h4>about</h4>
+					<h4>关于</h4>
 					<ul>
 						<li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
 						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
@@ -52,6 +52,9 @@
 				<p class="licence">
 					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
 					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+				</p>
+				<p>
+					blog.nicecoder.net上的文章均属原创，转载时请遵循 “署名-非商业性使用-相同方式共享” 的创作共用协议
 				</p>
 			</div><!-- unit-foot-inner -->
 		</div><!-- unit-foot -->
@@ -64,7 +67,7 @@
 		js = d.createElement(s); js.src = url; js.id = id;
 		fjs.parentNode.insertBefore(js, fjs);
 		};
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
+	//load('//platform.twitter.com/widgets.js', 'tweetjs');
 	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
 	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
 	}(document, 'script'));
